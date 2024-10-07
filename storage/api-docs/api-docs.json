@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Health Check",
+        "description": "This can be use for health checking",
+        "contact": {
+            "name": "C"
+        },
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8000",
+            "description": "API server"
+        }
+    ],
+    "paths": {
+        "/api/health": {
+            "get": {
+                "operationId": "f5cd8cf984b7dabef10f8caeabcf4fd4",
+                "responses": {
+                    "200": {
+                        "description": "This returns PONG with up-time"
+                    }
+                }
+            }
+        }
+    }
+}

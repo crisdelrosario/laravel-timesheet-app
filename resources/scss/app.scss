@@ -1,0 +1,16 @@
+:root {
+    --primary: rgba(32, 116, 239, 1);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    width: 100vh;
+    height: 100vh;
+}
+
+.ts-app\:main {
+    width: 100%;
+    min-height: 100vh;
+}
