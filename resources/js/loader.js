@@ -12,6 +12,11 @@ function App() {
             <ErrorBoundary>
                 <Routes>
                     <Route path="/" element={ <Home/> }></Route>
+                    <Route path="/dashboard" element={ <Dashboard/> }></Route>
+                    <Route path="/account" element={ <Dashboard/> }></Route>
+                    <Route path="/timesheet" element={ <Dashboard/> }></Route>
+                    <Route path="/expenses" element={ <Dashboard/> }></Route>
+                    <Route path="/manage" element={ <Dashboard/> }></Route>
                     <Route path="/signin" element={ <SignIn/> }></Route>
                     <Route path="/signup" element={ <SignUp/> }></Route>
                 </Routes>
